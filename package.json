@@ -1,0 +1,20 @@
+{
+  "name": "grossery",
+  "private": true,
+  "scripts": {
+    "start": "gridsome develop --port 3000",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-netlify-cms": "^1.0.9",
+    "netlify-cms": "^2.10.93",
+    "showdown": "^1.9.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
